@@ -19,21 +19,22 @@ while ctr < draw_ctr:
 
     # Letters
     if draw_chr[ctr] == "A":
-        x.left(80)
+        x.left(60)
         x.forward(50)
-        x.right(160)
+        x.right(120)
         x.forward(50)
-        x.left(170)
+        x.left(150)
         x.penup()
         x.forward(25)
+        x.left(90)
+        x.forward(14)
         x.pendown()
-        x.left(90)
-        x.forward(16)
+        x.forward(20)
         x.left(90)
         x.penup()
         x.forward(25)
         x.left(90)
-        x.forward(25)
+        x.forward(44)
         x.pendown()
     elif draw_chr[ctr] == "B":
         x.left(90)
