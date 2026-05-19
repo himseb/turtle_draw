@@ -1,5 +1,7 @@
 import turtle
 
+print("Welcome to Turtle Draw")
+
 # User Input
 draw = str(input("Input something for the turtle to draw: ")).upper()
 print(f"Will draw: {draw}")
