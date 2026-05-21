@@ -407,4 +407,5 @@ while ctr < draw_ctr:
 #       print(f"Character {draw_chr[ctr]} is currently unavailable.")
     
     ctr += 1
+x.hideturtle()
 turtle.done()
